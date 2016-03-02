@@ -1,0 +1,7 @@
+Makefile
+config.h
+config.status
+configure
+config.log
+tests/run.sh
+config.sub config.guess

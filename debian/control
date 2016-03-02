@@ -1,0 +1,20 @@
+Source: pkgconf
+Section: devel
+Priority: optional
+Maintainer: Andrew Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, autotools-dev
+Homepage: https://github.com/pkgconf/pkgconf
+Standards-Version: 3.9.5
+Vcs-Hg: http://anonscm.debian.org/hg/collab-maint/pkgconf
+Vcs-Browser: http://anonscm.debian.org/hg/collab-maint/pkgconf/summary
+
+Package: pkgconf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: pkg-config
+Description: manage compile and link flags for libraries
+ pkgconf is a replacement for pkg-config, a system for managing library
+ compile and link flags that works with automake and autoconf.
+ .
+ pkgconf does not bundle any third-party libraries or depend on any
+ third-party libraries.
